@@ -23,12 +23,12 @@ jobs:
     defaults:
       run:
         working-directory: ./ui/react-ui
-        
+
     strategy:
       matrix:
         node-version: ["16.x"]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-        
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -46,4 +46,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./ui/react-ui/build
+          publish_dir: ./ui/build
