@@ -2,7 +2,7 @@
   "name": "react-ui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tomo0119shige.github.io/react-loading/",
+  "homepage": "https://tomo0119shige.github.io/react_loading/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
